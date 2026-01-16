@@ -68,4 +68,3 @@ curl -N -X POST "http://127.0.0.1:8000/chat" \
 - By default the app uses SQLite and stores the file `database.db` in the project root.
 - Ensure `GROQ_API_KEY` (and any other required keys) are set in `.env` before starting the server.
 - For production, replace SQLite with a production-ready database and secure the `SECRET_KEY`.
-- WARNING! FOR TESTING PURPOSE THE ENV VALUES HAVE THE SECRET KEYS!
